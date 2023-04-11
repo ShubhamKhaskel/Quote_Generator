@@ -1,0 +1,133 @@
+/* google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     /* it contains padding and border*/
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(129, 129, 245);
+    overflow: hidden;
+}
+
+.wrapper
+{
+    width: 600px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+
+}
+
+.wrapper header{
+    font-size: 35px;
+    font-size: 600;
+    text-align: center;
+    
+}
+
+.header
+{
+    color: black;
+}
+
+.wrapper .content
+{
+    margin: 35px 0;
+}
+
+.content .quote-area
+{
+    display: flex;
+    justify-content: center;
+}
+
+.quote-area i{
+    font-size: 15px;
+}
+
+.quote-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+
+.quote-area i:last-child{
+    margin: 0 0 3px 10px;
+}
+
+.quote-area .quote
+{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author
+{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.author span:first-child
+{
+    margin: -9px 5px 0 0;
+    font-family: monospace;
+}
+
+.buttons .features
+{
+   display: flex; 
+   /* border-top: 1px solid white; */
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li
+{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid rgb(132, 132, 135);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(129, 129, 245);
+    cursor: pointer;
+}
+
+.features ul li:hover
+{
+    color: aliceblue;
+    background-color:rgb(179, 179, 249) ;
+}
+
+.features button{
+    border: none;
+    outline: none;
+    background-color: rgb(129, 129, 245);
+    border-radius: 10px;
+    padding: 13px 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.loading
+{
+    opacity: 0.7;
+}
